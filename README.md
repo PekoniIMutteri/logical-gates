@@ -1,4 +1,4 @@
-# IDEA
+# Description
 
 (starting over, as i had terrible management of my project)
 
@@ -13,18 +13,36 @@ connect them together (including in circles).
 
 It should also check the validity of your circuits before making them.
 
+When executed, the Circuit will be executed using a BFS (like) algorithm
+(I just don't know if it really is BFS).
+
+This will mean you might have to worry about timings for your circuits, but it
+will make things like a clock possible (a "not" gate going into itself).
+
+## Ideas
+
 Templates are going to be reusable sections of gates, and will have an optional
 stats section with the number of gates, and the delay of the template.
 
 This stats section will be purely for the user to remember, it will not impact
 the circuits in any way.
 
-When executed, the Circuit will be computed (kinda) using a BFS (like) algorithm
-(I just don't know if it really is BFS).
-
-This will mean you might have to worry about timings for your circuits, but it
-will make things like a clock possible (a "not" gate going into itself).
-
 ## Tasks
 
+- [x] Setup Tasks
+
+- [ ] CircuitMaker
+  - [ ] Fields
+  - [ ] Impl
 - [ ] Circuit
+  - [ ] Fields
+  - [ ] Impl
+- [ ] Gate
+  - [ ] Fields
+  - [ ] Impl
+    - [x] define
+    - [ ] inputs
+    - [ ] outputs
+    - [ ] set_inputs
+    - [ ] update
+    - [ ] changes
