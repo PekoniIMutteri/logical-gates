@@ -42,8 +42,6 @@ the circuits in any way.
   - [ ] Impl
     - [x] define
     - [ ] new
-    - [ ] inputs
-    - [ ] outputs
     - [ ] set_inputs
     - [ ] update
-    - [ ] changes
+    - [ ] connect
