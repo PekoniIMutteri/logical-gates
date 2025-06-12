@@ -41,6 +41,7 @@ the circuits in any way.
   - [ ] Fields
   - [ ] Impl
     - [x] define
+    - [ ] new
     - [ ] inputs
     - [ ] outputs
     - [ ] set_inputs

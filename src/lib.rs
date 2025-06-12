@@ -22,6 +22,11 @@ pub struct Gate {
 }
 
 impl Gate {
+    // Creates a new Gate using the given function.
+    // All inputs are initialized to `false`.
+    // fn new: (fn(Vec<bool>) -> Vec<bool>) -> Gate
+    // TODO: new
+
     // gets all the gate's inputs
     // fn inputs: Gate -> Vec<bool>
     // TODO: inputs
