@@ -37,11 +37,11 @@ the circuits in any way.
 - [ ] Circuit
   - [ ] Fields
   - [ ] Impl
-- [ ] Gate
-  - [ ] Fields
-  - [ ] Impl
+- [x] Gate
+  - [x] Fields
+  - [x] Impl
     - [x] define
-    - [ ] new
-    - [ ] set_inputs
-    - [ ] update
-    - [ ] connect
+    - [x] new
+    - [x] set_input
+    - [x] update
+    - [x] connect
